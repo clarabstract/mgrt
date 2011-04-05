@@ -1,11 +1,12 @@
 requires = 'starting_state'
 
-@lossless 
+# @lossless 
 def do():
     # add col
+    pass
 
 def undo():
-    ...
+	pass
 
 def lossless_undo():
-
+	pass

@@ -1,9 +1,8 @@
-from . import repositories
-
-initialzes = repositories.defaultdb
+from decorators import lossless
+initialzes = 'maindb'
 
 @lossless
-def do():
+def do(r):
     if file.exists(outftfile):
         etc
     repositories.defaultdb.sql("""

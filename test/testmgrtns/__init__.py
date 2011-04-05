@@ -1,4 +1,6 @@
-from mgrt import repositories
+from repos import SQLRepository
+import sqlite3
 
-
-repositories.default = 'default'
+REPOSITORIES = {
+	'maindb': SQLRepository(sqlite3.connect(':memory:'))
+}
